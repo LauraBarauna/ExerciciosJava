@@ -1,4 +1,4 @@
-package CarteiraDigital;
+package carteiraDigital;
 
 import java.util.ArrayList;
 import java.util.List;

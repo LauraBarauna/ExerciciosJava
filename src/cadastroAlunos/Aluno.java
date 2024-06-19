@@ -1,7 +1,6 @@
-package CadastroAlunos;
+package cadastroAlunos;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class Aluno {
     //atributos

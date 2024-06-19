@@ -1,6 +1,4 @@
-package CadastroAlunos;
-
-import CadastroAlunos.Aluno;
+package cadastroAlunos;
 
 public class Main {
     public static void main(String[] args) {

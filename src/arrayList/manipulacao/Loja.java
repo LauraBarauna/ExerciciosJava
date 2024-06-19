@@ -1,7 +1,6 @@
-package ArrayList.Manipulacao;
+package arrayList.manipulacao;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Loja {
     //atributos

@@ -1,7 +1,4 @@
-package CadastroAlunos;
-
-import java.util.HashMap;
-import java.util.Map;
+package cadastroAlunos;
 
 public class Disciplina {
     //atributos

@@ -1,4 +1,4 @@
-package CarteiraDigital;
+package carteiraDigital;
 
 import java.util.Scanner;
 

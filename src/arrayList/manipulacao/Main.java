@@ -1,4 +1,4 @@
-package ArrayList.Manipulacao;
+package arrayList.manipulacao;
 
 public class Main {
     public static void main(String[] args) {
