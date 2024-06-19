@@ -1,4 +1,4 @@
-package cadastroAlunos;
+package POO.cadastroAlunos;
 
 public class Main {
     public static void main(String[] args) {

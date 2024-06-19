@@ -1,4 +1,4 @@
-package biblioteca;
+package POO.biblioteca;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,9 +30,9 @@ public class Biblioteca {
 
     public void listarLivros() {
         if (livros.isEmpty()) {
-            System.out.println("Nenhum livro na biblioteca.");
+            System.out.println("Nenhum livro na pooCollections.biblioteca.");
         } else {
-            System.out.println("Livros na biblioteca:");
+            System.out.println("Livros na pooCollections.biblioteca:");
             for (String livro : livros) {
                 System.out.println("- " + livro);
             }

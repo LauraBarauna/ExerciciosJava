@@ -1,4 +1,4 @@
-package collections;
+package collections.hashSet.manipulacao;
 
 import java.util.ArrayList;
 import java.util.HashSet;

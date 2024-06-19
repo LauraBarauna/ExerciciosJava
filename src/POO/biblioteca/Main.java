@@ -1,4 +1,4 @@
-package biblioteca;
+package POO.biblioteca;
 
 import java.util.Scanner;
 

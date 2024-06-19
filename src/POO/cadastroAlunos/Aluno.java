@@ -1,4 +1,4 @@
-package cadastroAlunos;
+package POO.cadastroAlunos;
 
 import java.util.HashMap;
 

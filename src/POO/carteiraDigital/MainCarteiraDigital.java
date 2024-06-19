@@ -1,4 +1,4 @@
-package carteiraDigital;
+package POO.carteiraDigital;
 
 import java.util.Scanner;
 

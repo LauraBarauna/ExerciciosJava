@@ -1,4 +1,4 @@
-package arrayList.manipulacao;
+package collections.arrayList.manipulacao.loja;
 
 public class Produto {
     //atributos

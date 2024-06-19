@@ -1,4 +1,4 @@
-package collections;
+package collections.arrayList.manipulacao;
 
 import java.util.ArrayList;
 import java.util.Collections;
