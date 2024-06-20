@@ -1,4 +1,4 @@
-package collections.arrayList.manipulacao.loja;
+package poo.loja;
 
 public class Main {
     public static void main(String[] args) {

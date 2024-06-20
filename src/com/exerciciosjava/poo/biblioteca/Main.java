@@ -1,4 +1,4 @@
-package POO.biblioteca;
+package com.exerciciosjava.poo.biblioteca;
 
 import java.util.Scanner;
 

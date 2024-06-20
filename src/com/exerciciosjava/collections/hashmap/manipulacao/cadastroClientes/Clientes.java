@@ -1,4 +1,4 @@
-package collections.hashSet.manipulacao.cadastroClientes;
+package com.exerciciosjava.collections.hashmap.manipulacao.cadastroClientes;
 
 public class Clientes {
     //atributos

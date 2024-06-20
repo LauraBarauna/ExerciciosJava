@@ -1,4 +1,4 @@
-package collections.arrayList.manipulacao;
+package com.exerciciosjava.poo;
 
 import java.util.ArrayList;
 import java.util.Collections;

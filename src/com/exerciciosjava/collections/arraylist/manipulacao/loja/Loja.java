@@ -1,4 +1,4 @@
-package collections.arrayList.manipulacao.loja;
+package poo.loja;
 
 import java.util.ArrayList;
 

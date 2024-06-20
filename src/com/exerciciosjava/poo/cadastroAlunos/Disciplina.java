@@ -1,4 +1,4 @@
-package POO.cadastroAlunos;
+package com.exerciciosjava.poo.cadastroAlunos;
 
 public class Disciplina {
     //atributos
