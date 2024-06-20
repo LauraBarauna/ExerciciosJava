@@ -1,4 +1,4 @@
-package com.exerciciosjava.poo.carteiraDigital;
+package com.exerciciosjava.poo.carteiradigital;
 
 import java.util.ArrayList;
 import java.util.List;
