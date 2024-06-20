@@ -1,4 +1,4 @@
-package poo.loja;
+package com.exerciciosjava.collections.arraylist.manipulacao.loja;
 
 public class Produto {
     //atributos
@@ -29,7 +29,7 @@ public class Produto {
     //to string
     @Override
     public String toString() {
-        return "Produto{" +
+        return "com.exerciciosjava.collections.arraylist.manipulacao.loja.Produto{" +
                 "nome='" + nome + '\'' +
                 ", preco=" + preco +
                 ", quantidade=" + quantidade +

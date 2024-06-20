@@ -1,4 +1,4 @@
-package poo.loja;
+package com.exerciciosjava.collections.arraylist.manipulacao.loja;
 
 import java.util.ArrayList;
 
