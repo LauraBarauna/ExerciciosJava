@@ -1,4 +1,4 @@
-package com.exerciciosjava.poo.veiculos;
+package com.exerciciosjava.poo.herancapolimorfismo;
 
 public class Main {
     public static void main(String[] args) {

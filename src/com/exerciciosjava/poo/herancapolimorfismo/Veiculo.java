@@ -1,4 +1,4 @@
-package com.exerciciosjava.poo.veiculos;
+package com.exerciciosjava.poo.herancapolimorfismo;
 
 public abstract class Veiculo {
     //atibutos
