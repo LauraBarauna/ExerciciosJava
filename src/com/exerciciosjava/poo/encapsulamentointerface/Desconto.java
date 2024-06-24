@@ -2,6 +2,6 @@ package com.exerciciosjava.poo.encapsulamentointerface;
 
 public interface Desconto {
 
-    public void calcularDesconto(double desconto);
+    public void calcularDesconto(CarrinhoCompras carrinho, double desconto);
 
 }

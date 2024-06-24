@@ -8,11 +8,13 @@ public class CarrinhoCompras {
     private String nome;
     private Double precoProduto;
     private int quantidadeProduto;
-    DescontoFixo descontoFixo = new DescontoFixo();
+    private DescontoFixo descontoFixo = new DescontoFixo();
+    private DescontoPercentual descontoPercentual = new DescontoPercentual();
 
     //construtor
     public CarrinhoCompras() {
         this.produtosList = new ArrayList<>();
+
     }
 
     //metodos
@@ -24,15 +26,26 @@ public class CarrinhoCompras {
         quantidadeProduto = quantidade;
     }
 
-    public void calcularDescontoFixo(double desconto){
-        descontoFixo.calcularDesconto(desconto);
+    public void calcularDescontoFixo(double desconto, String nomeProduto){
+        for (Produtos p : produtosList){
+            p.getNomeProduto().equalsIgnoreCase(nomeProduto);
+            descontoFixo.calcularDesconto(this, desconto);
+        }
     }
 
-    public void calcularDescontoPercentual(){
+    public void calcularDescontoPercentual(double desconto){
+        descontoPercentual.calcularDesconto(this, desconto);
+    }
 
+    public void listarProdutos(){
+        System.out.println(produtosList);
     }
 
     //get
+    public ArrayList<Produtos> getProdutosList() {
+        return produtosList;
+    }
+
     public String getNome() {
         return nome;
     }
