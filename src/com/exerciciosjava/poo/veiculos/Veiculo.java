@@ -14,5 +14,8 @@ public abstract class Veiculo {
     }
 
     //metodos
+    public void acelerar(){}
+    public void frear(){}
+    public void torcarMarcha(){}
 
 }
