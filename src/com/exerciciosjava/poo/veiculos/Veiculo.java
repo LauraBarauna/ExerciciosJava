@@ -17,5 +17,9 @@ public abstract class Veiculo {
     public void acelerar(){}
     public void frear(){}
     public void torcarMarcha(){}
-
+    public void exibirInfos(){
+        System.out.println("Marca: "+marca);
+        System.out.println("Placa: "+placa);
+        System.out.println("Ano de Fabricação: "+anoFabricacao);
+    }
 }
