@@ -27,18 +27,28 @@ public class CarrinhoCompras {
     }
 
     public void calcularDescontoFixo(double desconto, String nomeProduto){
-        for (Produtos p : produtosList){
-            p.getNomeProduto().equalsIgnoreCase(nomeProduto);
-            descontoFixo.calcularDesconto(this, desconto);
+       if (!produtosList.isEmpty()){
+           descontoFixo.calcularDesconto(this, desconto, nomeProduto);
+       } else {
+           throw new RuntimeException("Lista vazia!");
+       }
+
+    }
+
+    public void calcularDescontoPercentual(double desconto, String nomeProduto){
+        if (!produtosList.isEmpty()){
+            descontoPercentual.calcularDesconto(this, desconto, nomeProduto);
+        } else {
+            throw new RuntimeException("Lista vazia!");
         }
     }
 
-    public void calcularDescontoPercentual(double desconto){
-        descontoPercentual.calcularDesconto(this, desconto);
-    }
-
     public void listarProdutos(){
-        System.out.println(produtosList);
+        if (!produtosList.isEmpty()){
+            System.out.println(produtosList);
+        } else {
+            throw new RuntimeException("Lista vazia!");
+        }
     }
 
     //get

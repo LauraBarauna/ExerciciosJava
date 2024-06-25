@@ -1,13 +1,21 @@
 package com.exerciciosjava.poo.herancapolimorfismo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        Veiculo carro = new Carro("Fiat","LVX-4350", "10/11/2000");
-        Veiculo moto = new Moto("Honda","MZC-3498", "10/02/2010");
-        Veiculo caminhao = new Caminhao("Mercedes","JTT-5115", "24/06/2005");
+        List<Veiculo> veiculos = new ArrayList<>();
+        veiculos.add(new Carro("Toyota", "ABC-1234", "2022"));
+        veiculos.add(new Moto("Honda", "XYZ-5678", "2021"));
+        veiculos.add(new Caminhao("Volvo", "MNO-9101", "2020"));
 
-        carro.exibirInfos();
-        caminhao.exibirInfos();
-        moto.exibirInfos();
+        for (Veiculo veiculo : veiculos) {
+            veiculo.exibirInfos();
+            veiculo.acelerar();
+            veiculo.frear();
+            veiculo.torcarMarcha();
+            System.out.println();
+        }
     }
 }
